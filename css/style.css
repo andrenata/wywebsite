@@ -1,0 +1,57 @@
+body {
+    background-color: #dddddd;
+}
+.container {
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid #222222;
+    padding: 15px;
+    background-color: #ffffff;
+}
+/* STYLING JUDUL */
+.header {
+    text-align: center;
+}
+/* STYLING MENU */
+.menu {
+    background-color: #222222;
+}
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+.menu ul li {
+    float: left;
+    list-style-type: none;
+}
+.menu ul li a {
+    padding: 10px 15px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    background-color: red;
+}
+.clear {
+    clear: both;
+}
+
+/* CONTENT */
+.content {
+    padding: 15px;
+}
+
+.content .artikel {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+
+}
+.content .artikel h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.content .artikel p {
+    text-align: justify;
+}
