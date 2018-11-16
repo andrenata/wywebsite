@@ -29,7 +29,7 @@
             <p>Tambahkan artikel baru anda disini!</p>
 
             <div class="form-tambah-artikel">
-                <form action="#">
+                <form action="tambah-artikel-post.php" method="POST">
                     <div class="field-artikel">
                         <label>Judul</label> <br>
                         <input type="text" name="judul">
