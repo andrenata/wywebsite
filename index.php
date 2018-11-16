@@ -16,9 +16,9 @@
 
         <div class="menu">
             <ul>
-                <li><a href="#">Beranda</a></li>
-                <li><a href="#">Tambah Artikel</a></li>
-                <li><a href="#">Delete Artikel</a></li>
+                <?php
+                    include('menu.php');
+                ?>
             </ul>
             <div class="clear"></div>
         </div>
