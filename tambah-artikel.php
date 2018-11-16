@@ -28,20 +28,22 @@
             <h2>Tambah Artikel</h2>
             <p>Tambahkan artikel baru anda disini!</p>
 
-            <form action="#">
-                <div class="field-artikel">
-                    <label>Judul</label> <br>
-                    <input type="text" name="judul">
-                </div>
-                <div class="field-artikel">
-                    <label>Artikel</label> <br>
-                    <textarea name="artikel"cols="30" rows="10"></textarea>
-                </div>
-                <div class="field-artikel">
-                    <input type="submit" value="TAMBAH">
-                    <input type="reset" value="KOSONGKAN">
-                </div>
-            </form>
+            <div class="form-tambah-artikel">
+                <form action="#">
+                    <div class="field-artikel">
+                        <label>Judul</label> <br>
+                        <input type="text" name="judul">
+                    </div>
+                    <div class="field-artikel">
+                        <label>Artikel</label> <br>
+                        <textarea name="artikel"cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="field-artikel">
+                        <input type="submit" value="TAMBAH">
+                        <input type="reset" value="KOSONGKAN">
+                    </div>
+                </form>
+            </div>
 
         </div> <!-- tutup content -->
 

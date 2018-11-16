@@ -55,3 +55,43 @@ body {
 .content .artikel p {
     text-align: justify;
 }
+
+/* STYLING TAMBAH ARTIKEL */
+.form-tambah-artikel {
+    padding: 15px 0;
+}
+
+.field-artikel {
+    margin-bottom: 20px;
+}
+
+.field-artikel label {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.field-artikel input[type=text], 
+.field-artikel textarea {
+    padding: 10px 15px;
+    border: none;
+    background-color: #dddddd;
+}
+
+.field-artikel input[type=submit],
+.field-artikel input[type=reset] {
+    padding: 10px 15px;
+    background-color: green;
+    border: none;
+    color: #fff;
+}
+
+.field-artikel input[type=reset] {
+    background-color: red;
+}
+
+.field-artikel input[type=submit]:hover,
+.field-artikel input[type=reset]:hover {
+    cursor: pointer;
+    background-color: #222222;   
+}
