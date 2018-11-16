@@ -76,6 +76,7 @@ body {
     padding: 10px 15px;
     border: none;
     background-color: #dddddd;
+    width: 300px;
 }
 
 .field-artikel input[type=submit],
