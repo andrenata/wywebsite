@@ -16,6 +16,7 @@
 
         <div class="menu">
             <ul>
+                <!-- PANGGIL MENU DARI FILE menu.php -->
                 <?php
                     include('menu.php');
                 ?>
