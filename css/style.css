@@ -96,3 +96,20 @@ body {
     cursor: pointer;
     background-color: #222222;   
 }
+
+.button-delete {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color:red;
+    padding: 5px 15px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button-delete:hover {
+    background-color: #2f3134;
+}

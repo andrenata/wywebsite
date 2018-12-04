@@ -39,7 +39,9 @@
                     echo "<div class='artikel'>";
                     echo "<h2>".$row['title_post']."</h2>";
                     echo "<p>".$row['article']."</p>";
+                    echo"<a class='button-delete' href='hapus.php?id=".$row['id_post']."'>Hapus</a>";
                     echo "</div>";
+                    
                 }
             ?>
 
