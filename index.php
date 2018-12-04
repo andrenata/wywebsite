@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Wisata Bali</title>
+    <title>Coba Wisata Bali</title>
     <!-- menghubungkan index dengan css -->
     <link rel="stylesheet" href="css/style.css">
 
