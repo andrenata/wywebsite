@@ -6,7 +6,7 @@ include('koneksi.php');
 // AMBIL ID
 $id = $_GET['id'];
 
-// TEST
+// TEST MENAMPILKAN ID
 // echo $id;
 
 // QUERY KE TABLE dengan DELETE SQL
