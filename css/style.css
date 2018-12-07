@@ -97,10 +97,9 @@ body {
     background-color: #222222;   
 }
 
-.button-delete {
+.button-delete, .button-edit {
     text-decoration: none;
     text-transform: uppercase;
-    background-color:red;
     padding: 5px 15px;
     color: #ffffff;
     font-weight: bold;
@@ -108,8 +107,16 @@ body {
     font-size: 13px;
     letter-spacing: 0.02em;
     transition: background-color 0.2s ease-in-out;
+    margin-right: 10px;
 }
 
-.button-delete:hover {
+.button-delete {
+    background-color:red;
+}
+.button-edit {
+    background-color: blue;
+}
+
+.button-delete:hover, .button-edit:hover {
     background-color: #2f3134;
 }
