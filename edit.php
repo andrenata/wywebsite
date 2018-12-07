@@ -4,6 +4,7 @@
     <title>Wisata Bali</title>
     <!-- menghubungkan index dengan css -->
     <link rel="stylesheet" href="css/style.css">
+    <script src="//cdn.ckeditor.com/4.11.1/standard/ckeditor.js"></script>
 
 </head>
 <body>
@@ -44,7 +45,7 @@
         ?>
 
             <div class="form-tambah-artikel">
-                <form action="tambah-artikel-post.php" method="POST">
+                <form action="update-artikel.php" method="POST">
                     <div class="field-artikel">
                         <label>Judul</label> <br>
                         <input type="hidden" name="id" value="<?php echo $d['id_post'] ?>">
@@ -52,7 +53,7 @@
                     </div>
                     <div class="field-artikel">
                         <label>Artikel</label> <br>
-                        <textarea name="artikel"cols="30" rows="10">
+                        <textarea name="artikel" cols="30" rows="10">
                             <?php echo $d['article'] ?>
                         </textarea>
                     </div>
@@ -68,6 +69,10 @@
         </div> <!-- tutup content -->
 
     </div> <!-- tutup container -->
+
+    <script>
+        CKEDITOR.replace( 'artikel' );
+    </script>
     
 </body>
 </html>

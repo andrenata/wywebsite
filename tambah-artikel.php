@@ -4,6 +4,7 @@
     <title>Wisata Bali</title>
     <!-- menghubungkan index dengan css -->
     <link rel="stylesheet" href="css/style.css">
+    <script src="//cdn.ckeditor.com/4.11.1/standard/ckeditor.js"></script>
 
 </head>
 <body>
@@ -49,6 +50,10 @@
         </div> <!-- tutup content -->
 
     </div> <!-- tutup container -->
+
+    <script>
+        CKEDITOR.replace( 'artikel' );
+    </script>
     
 </body>
 </html>
