@@ -1,0 +1,40 @@
+/***************
+README
+note file web
+***************/
+
+MENU :
+    BERANDA
+        index.php
+    TAMBAH ARTIKEL
+        tambah-artikel.php 
+    LOGIN
+        login.php
+
+CRUD :
+    CREAD 
+        tambah-artikel.php
+        tambah-artikel-post.php
+    READ
+        index.php
+    UPDATE
+        edit.php
+        update-artikel.php
+    DELETE
+        hapus.php
+
+FUNGSI LOGIN DAN LOGOUT MENGGUNAKAN SESSION
+    login.php
+    logout.php
+
+DATABASE :
+    folder database/mywebsite.php
+
+STYLING :
+    folder css/style.css
+
+MENU :
+    menu.php
+
+KONEKSI KE DATABASE :
+    koneksi.php
