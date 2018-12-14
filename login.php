@@ -31,6 +31,8 @@
                 if(isset($_GET['pesan'])){
                     if($_GET['pesan']=='gagal'){
                         echo "<p class='error'>Login gagal, silahkan ulangi kembali!</p>";
+                    }elseif($_GET['pesan']=='logout'){
+                        echo "<p class='error'>Logout berhasil!</p>";
                     }else{
                         echo "<p class='success'>Login Berhasil</p>";
                     }
