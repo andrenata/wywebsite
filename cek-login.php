@@ -15,10 +15,16 @@ $query = mysqli_query($connect, "SELECT * FROM admin
 // Cek apakah ada data pada variable query
 $cek = mysqli_num_rows($query);
 
+// CEK apakah login berhasil atau tidak
 if($cek){
-    echo "OK";
+    // jika berhasil
+    $_SESSION['username'] = $username;
+    $_SESSION['status'] = 'login';
+    // redirect ke halaman beranda
+    header("location:index.php");
 }else{
-    echo "gagal";
+    // jika gagal redirect ke halaman login
+    header("location:login.php?pesan=gagal");
 }
 
 

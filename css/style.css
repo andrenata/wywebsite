@@ -72,6 +72,7 @@ body {
 }
 
 .field-artikel input[type=text], 
+.field-artikel input[type=password],
 .field-artikel textarea {
     padding: 10px 15px;
     border: none;
@@ -120,3 +121,7 @@ body {
 .button-delete:hover, .button-edit:hover {
     background-color: #2f3134;
 }
+
+/* PESAN */
+.error { color: red; }
+.success { color: green; }

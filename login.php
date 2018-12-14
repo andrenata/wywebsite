@@ -27,8 +27,20 @@
 
         <div class="content">
 
-            <h2>LOGIN</h2>
+            <?php 
+                if(isset($_GET['pesan'])){
+                    if($_GET['pesan']=='gagal'){
+                        echo "<p class='error'>Login gagal, silahkan ulangi kembali!</p>";
+                    }else{
+                        echo "<p class='success'>Login Berhasil</p>";
+                    }
+                }
 
+            ?>
+
+            <h2>LOGIN</h2>
+            
+            <?php if($cek=='not'){ ?>
             <div class="form-tambah-artikel">
                 <form action="cek-login.php" method="POST">
                     <div class="field-artikel">
@@ -44,6 +56,8 @@
                     </div>
                 </form>
             </div>
+
+            <?php } ?>
 
         </div> <!-- tutup content -->
 
