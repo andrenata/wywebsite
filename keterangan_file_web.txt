@@ -47,3 +47,11 @@ MENU :
 
 KONEKSI KE DATABASE :
     koneksi.php
+
+
+ONLINE-kan WEBSITE-mu :
+1. Hosting (fungsi untuk menyimpan data website)
+2. Domain (nama seperti blabla.com, blabla.net, .org, .desa.id, .id, .co.id, dst)
+- free Email
+    misal : nama domain kita : www.wisatabali.com
+    maka : kita dapat free email : blabla@wisatabali.com
