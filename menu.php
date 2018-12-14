@@ -14,9 +14,13 @@
 
 <?php
     if($cek=='login'){
-        echo "<li><a href='logout.php'><strong>LOGOUT</strong></a></li>";
-        echo "<li><a href='logout.php'><strong>Hello, ".$_SESSION['username']."</strong></a></li>";
+        echo "<li><a href='logout.php'>
+                <strong>LOGOUT</strong></a></li>";
+        echo "<li><a href='logout.php'>
+            <strong>Hello, ".$_SESSION['username']."
+            </strong></a></li>";
     }else{
-        echo "<li><a href='login.php'><strong>LOGIN</strong></a></li>";
+        echo "<li><a href='login.php'>
+        <strong>LOGIN</strong></a></li>";
     }
 ?>
