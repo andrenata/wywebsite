@@ -30,6 +30,7 @@
             <h2>Tambah Artikel</h2>
             <p>Tambahkan artikel baru anda disini!</p>
 
+            <?php if($cek =='login'){ ?>
             <div class="form-tambah-artikel">
                 <form action="tambah-artikel-post.php" method="POST">
                     <div class="field-artikel">
@@ -46,6 +47,9 @@
                     </div>
                 </form>
             </div>
+            <?php }else{ ?>
+                <p class="error">Anda Harus Login Dahulu!</p>
+            <?php } ?>
 
         </div> <!-- tutup content -->
 
