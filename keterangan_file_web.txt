@@ -1,7 +1,16 @@
 /***************
 README
 note file web
+
+bahasa wajib dalam web: HTML, CSS, PHP, SQL
+HTML: menampilkan data ke browser
+CSS: styling HTML
+PHP: bahasa client server, menghubungkan web dengan database
+SQL: manage database
+
+dasar belajar web: https://www.w3schools.com/
 ***************/
+
 
 MENU :
     BERANDA
@@ -13,13 +22,13 @@ MENU :
 
 CRUD :
     CREAD 
-        tambah-artikel.php
-        tambah-artikel-post.php
+        tambah-artikel.php (input data disini)
+        tambah-artikel-post.php (proses tambah data ke databse)
     READ
         index.php
     UPDATE
-        edit.php
-        update-artikel.php
+        edit.php (edit data)
+        update-artikel.php (proses update ke database)
     DELETE
         hapus.php
 
